@@ -61,7 +61,7 @@
   }
 
   .header-2 {
-    @apply text-18 font-semibold text-gray-900;
+    @apply text-sm font-semibold text-gray-900;
   }
 
   .text-10 {
@@ -118,19 +118,19 @@
   }
 
   .total-balance {
-    @apply flex w-full items-center gap-4 rounded-xl border border-gray-200 p-4 shadow-chart sm:gap-6 sm:p-6;
+    @apply flex w-full items-center gap-4 rounded-xl border border-gray-200 p-2 shadow-chart sm:gap-6 sm:p-6;
   }
 
   .total-balance-chart {
-    @apply flex size-full max-w-[100px] items-center sm:max-w-[120px];
+    @apply flex size-full max-w-[80px] items-center sm:max-w-[120px];
   }
 
   .total-balance-label {
-    @apply text-14 font-medium text-gray-600;
+    @apply text-xs font-medium text-gray-600;
   }
 
   .total-balance-amount {
-    @apply text-24 lg:text-30 flex-1 font-semibold text-gray-900;
+    @apply text-lg lg:text-lg flex-1 font-semibold text-gray-900;
   }
 
   .recent-transactions {
@@ -167,7 +167,7 @@
   }
 
   .profile-img {
-    @apply flex-center absolute -top-8 size-24 rounded-full bg-gray-100 border-8 border-white p-2 shadow-profile;
+    @apply flex-center absolute -top-8 size-20 rounded-full bg-gray-100 border-8 border-white p-2 shadow-profile;
   }
 
   .profile-details {
@@ -179,7 +179,7 @@
   }
 
   .profile-email {
-    @apply text-16 font-normal text-gray-600;
+    @apply text-14 font-normal text-gray-600;
   }
 
   .banks {
@@ -213,11 +213,11 @@
   }
 
   .header-box-title {
-    @apply text-24 lg:text-30 font-semibold text-gray-900;
+    @apply text-24 lg:text-lg font-semibold text-gray-900;
   }
 
   .header-box-subtext {
-    @apply text-14 lg:text-16 font-normal text-gray-600;
+    @apply text-14 lg:text-xs font-normal text-gray-600;
   }
 
   /* Bank Card */
